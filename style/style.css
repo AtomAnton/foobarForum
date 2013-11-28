@@ -1,0 +1,261 @@
+* { padding: 0;	margin: 0 0 0 0; font-family: sans-serif; list-style-type: none;}
+
+body {
+	background-color: #FEFEFE;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#header {
+	background: #424242;
+	background: -moz-linear-gradient(top,  #424242 0%, #333333 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#424242), color-stop(100%,#333333));
+	background: -webkit-linear-gradient(top,  #424242 0%,#333333 100%);
+	background: -o-linear-gradient(top,  #424242 0%,#333333 100%);
+	background: -ms-linear-gradient(top,  #424242 0%,#333333 100%);
+	background: linear-gradient(to bottom,  #424242 0%,#333333 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#333333',GradientType=0 );
+	height: 100px;
+	-webkit-box-shadow: 0px 3px 2px 1px #333;
+	box-shadow: 0px 3px 2px 1px #333; 
+	margin-bottom: 15px;
+} #headerInner {
+	color: #000;
+	width: 750px;
+	margin: 0 auto;
+	padding: 21px;
+	font-size: 14px;
+} #headerInner a {
+	text-decoration: none;
+	color: #C4C4C4;
+} #header form {
+	float: left;
+	width: 200px;
+} #header li.menu {
+	background: rgb(71,71,71);
+	background: -moz-linear-gradient(top,  rgba(71,71,71,1) 0%, rgba(28,28,28,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(71,71,71,1)), color-stop(100%,rgba(28,28,28,1)));
+	background: -webkit-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(28,28,28,1) 100%);
+	background: -o-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(28,28,28,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(28,28,28,1) 100%);
+	background: linear-gradient(to bottom,  rgba(71,71,71,1) 0%,rgba(28,28,28,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#1c1c1c',GradientType=0 );
+} #header form input {
+	border: none;
+	height: 21px;
+	margin-bottom: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 190px;
+} #header form input[type=submit] {
+	width: 50px;
+
+}
+
+#help {
+	padding-top: 40px;
+	float: left;
+	width: 200px;
+} #help a:hover {
+	text-decoration: underline;
+}
+
+/*#navigation {
+	width: 750px;
+	margin: auto;
+	padding: 10px 0 15px 0;
+}*/
+
+table {
+	width: 750px;
+	border: 1px solid #f0f0f0;
+	margin: 0 auto;
+} table th {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px 10px;
+	margin: 0 auto;
+} table td {
+	margin: 0 auto;
+	padding: 6px;
+	font-family: Verdana;
+	font-size: 14px;
+	text-decoration: none;
+} table td a {
+	font-family: Verdana;
+	font-size: 14px;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+} table td.latestPost, table td.latestPost a {
+	font-size: 11px;
+} table td a:hover {
+	text-decoration: underline;
+} table tr:hover { 
+	background: #E0E0E0; 
+} 
+
+p.title {
+	float: left;
+	width: 750px;
+	margin: auto;
+	background-color: #333;
+	height: 25px;
+	color: #FFF;
+	padding: 15px 15px 15px 15px;
+} p.topicTitle {
+	background-color: #333;
+	width: 740px;
+	padding: 20px;
+	float: left;
+} p.topicTitle a {
+	color: #FFF;
+} p.topicContent {
+	float: left;
+	min-height: 300px;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+	margin: auto;
+	color: #333;
+	padding: 15px;
+	width: 529px;
+} p.userProfile {
+	padding: 10px;
+	border-left: 1px solid #333;
+	border-bottom: 1px solid #333;
+	float: left;
+	width: 198px;
+	min-height: 310px;
+	height: auto;
+	background-color: #EEE;
+	
+}
+
+p.loggedIn {
+	width: 750px;
+	margin: auto;
+}
+
+form.register {
+	margin: 0 auto;
+	padding-top: 50px;
+	width: 700px;
+} form.register input {
+	border: 3px solid #E0E0E0;
+	margin: 5px 0px 5px 0px;
+	padding: 3px;
+	color: #333;
+} form.register input[type=submit] {
+	float: right;
+	margin-right: 50px;
+} fieldset.registerFieldset {
+	background: none repeat scroll 0 0 #EAEAEA;
+	margin-bottom: 20px;
+	padding: 30px;
+	border: 1px solid #A5A8B8;
+	color: #333;
+	font-weight: bold;
+}
+
+
+#header ul {
+	float: left;
+	padding-left: 40px;
+}
+#header li {
+	float: left;
+	background-color: #333;
+	color: #FFF;
+	padding: 15px 0px 15px 0px;
+	margin-top: 34px;
+	margin-left: 10px;
+	display: inline;
+	text-decoration: none;
+} #header li a {
+	padding: 15px 15px 15px 15px;
+}
+.displayUsername {
+	padding-left: 10px;
+	float: left;
+}
+
+#viewProfile {
+	margin: auto;
+	width: 750px;
+}
+
+#view {
+	float: left;
+}
+#profilePosts li {
+	list-style-type: none;
+}
+
+#profileImage {
+	float: left;
+	padding-right: 15px;
+}
+
+#test {
+    margin: auto;
+    width: 800px;
+}
+#newPost {
+	width: 800px;
+	margin: auto;
+	padding-left: 60px;
+}
+#newPost textarea {
+	width: 650px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 150px;
+	font-size: 11px;
+	font-family: Verdana;
+	border: 3px solid #333;
+	padding: 5px;
+}
+
+#newThread {
+	float: left;
+	
+}
+
+form.newThreadForm {
+	margin: 15px;
+}
+
+form.newThreadForm input[type=text]{
+	padding: 5px;
+	margin: 5px;
+	font-size: 17px;
+	font-family: Verdana;
+	width: 250px;
+}
+form.newThreadForm textarea {
+	width: 300px;
+	height: 250px;
+	margin: 5px;
+}
+
+a.viewThreads {
+	color: #333;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.viewThreads a:hover {
+	font-size: 55px;
+	text-decoration: underline;
+}
+table.forum {
+	float: left;
+}
